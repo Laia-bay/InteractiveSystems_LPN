@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8b951f955dffbf447872f1a77b3bc573
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - shootClip: {fileID: 8300000, guid: afd9aad0b8c4b1141856b4808d8ea172, type: 3}
+  - sheepHitClip: {fileID: 8300000, guid: e97ab3d76ee31794ba31802a0f2a719e, type: 3}
+  - sheepDroppedClip: {fileID: 8300000, guid: d396aafd153ba394982f2aa1349363de, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
