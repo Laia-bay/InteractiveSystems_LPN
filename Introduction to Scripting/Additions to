@@ -1,0 +1,11 @@
+On this subject is the first time that I have used Unity, therefore, the modifications that I have made on the project are the whole addition of the "Introduction to Scripting - Part II" tutorial for 2 reasons.
+  1. To learn as much as possible.
+  2. Because I still do not have the knowledge to improvise/add things on my own.
+
+I had some errors when keeping score of the sheep dropped and the sheep saved because sometimes it counted them twice. I realized it by printing the sentence "sheepdropped" on the log with the function Debug.Log(), because it got printed twice per sheep dropped.
+To fix that, I added 2 new variables on the sheep script called "hasDropped" and "isSaved" and initialized them as "False", and then on the respective functions that counted the dropped and the saved sheep I added an if statement that said:
+  if the variable hasDropped/isSaved is true, then return, meaning that leave this function and do not count the sheep as dropped/saved.
+And below this if statement I had the respective variable as True. 
+
+With this, the problem was solved.
+
